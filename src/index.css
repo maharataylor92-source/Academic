@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif-display: 'Cinzel', serif;
+    --font-serif-body: 'Newsreader', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #121110;
+    color: #e8e4dc;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-editorial {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Archival Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #141312;
+}
+::-webkit-scrollbar-thumb {
+  background: #383430;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #544e47;
+}
+
+/* Multispectral Filter Classes for High-Res Scan Inspection */
+.spectral-raking {
+  filter: contrast(165%) brightness(95%) saturate(75%);
+}
+
+.spectral-uv {
+  filter: invert(15%) sepia(85%) hue-rotate(200deg) saturate(220%) contrast(140%);
+}
+
+.spectral-infrared {
+  filter: grayscale(100%) contrast(190%) brightness(105%);
+}
+
+.spectral-relief {
+  filter: contrast(220%) invert(85%) hue-rotate(180deg) brightness(85%);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Archaica | Pure Historical Archive & Epigraphic Viewer",
+  "description": "An unbiased, primary-source archive of human antiquity's earliest texts, undeciphered scripts, and high-resolution multispectral artifact scans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
