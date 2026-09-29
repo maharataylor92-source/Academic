@@ -59,8 +59,16 @@ export const ManuscriptsViewer: React.FC<ManuscriptsViewerProps> = ({
           ms.artifactId.includes('enoch') || 
           ms.artifactId.includes('jubilees') || 
           ms.artifactId.includes('isaiah') || 
-          ms.artifactId.includes('garima');
+          ms.artifactId.includes('garima') ||
+          ms.artifactId.includes('ra') ||
+          ms.artifactId.includes('thoth');
         if (!isSacred) return false;
+      } else if (selectedCategory === 'ra-thoth') {
+        const isRaThoth = ms.artifactId.includes('ra') || ms.artifactId.includes('thoth') || ms.artifactId.includes('ani');
+        if (!isRaThoth) return false;
+      } else if (selectedCategory === 'free-will-encyclopedia') {
+        const isFreeWill = ms.artifactId.includes('epictetus') || ms.artifactId.includes('spinoza') || ms.artifactId.includes('schopenhauer') || ms.artifactId.includes('hazm');
+        if (!isFreeWill) return false;
       } else if (selectedCategory === 'undeciphered') {
         const isUndeciphered = (ms.artifact?.deciphermentScore || 0) < 50;
         if (!isUndeciphered) return false;
@@ -162,6 +170,28 @@ export const ManuscriptsViewer: React.FC<ManuscriptsViewerProps> = ({
             >
               <BookOpen className="w-3.5 h-3.5" />
               Sacred Sutras & Mystic Scriptures
+            </button>
+            <button
+              onClick={() => setSelectedCategory('ra-thoth')}
+              className={`px-3 py-1.5 rounded-xs transition-colors flex items-center gap-1 ${
+                selectedCategory === 'ra-thoth'
+                  ? 'bg-[#e4be92] text-[#141210] font-semibold'
+                  : 'bg-[#211e1c] text-[#a8a29e] hover:text-[#f5f2eb]'
+              }`}
+            >
+              <span>☀️</span>
+              Ra & Thoth (Litany & Emerald Tablet)
+            </button>
+            <button
+              onClick={() => setSelectedCategory('free-will-encyclopedia')}
+              className={`px-3 py-1.5 rounded-xs transition-colors flex items-center gap-1 ${
+                selectedCategory === 'free-will-encyclopedia'
+                  ? 'bg-[#e4be92] text-[#141210] font-semibold'
+                  : 'bg-[#211e1c] text-[#a8a29e] hover:text-[#f5f2eb]'
+              }`}
+            >
+              <span>⚖️</span>
+              Free Will & Oldest Encyclopedias
             </button>
             <button
               onClick={() => setSelectedCategory('undeciphered')}

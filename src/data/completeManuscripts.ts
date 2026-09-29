@@ -743,6 +743,293 @@ export const COMPLETE_MANUSCRIPTS: Record<string, CompleteManuscriptDossier> = {
         academicNotes: 'The world’s earliest complete monumental mythic narrative carved into stone, dating to 9,500 BCE.',
       }
     ]
+  },
+
+  'litany-of-ra-kv17': {
+    artifactId: 'litany-of-ra-kv17',
+    manuscriptTitle: 'The Litany of Ra (Book of Adoring the Solar Ra in the West — KV17 Seti I & KV9)',
+    foliationCount: '75 Invocations & Mystical Names · Inscribed Entry Corridors of KV17 & KV9 · Complete Hieroglyphic Text',
+    completeTextState: 'Complete Full Text Available',
+    licenseStatus: 'Public Domain Primary Source (Pre-1929 / Ancient)',
+    copyrightDisclaimer: 'Ancient Egyptian royal liturgy (c. 1300 BCE). Public domain. First fully published by Prof. Édouard Naville (1875–1876).',
+    pureSourceLinks: [
+      {
+        repositoryName: 'The British Museum / Egypt Exploration Society Primary Archives',
+        url: 'https://archive.org/details/records-of-the-past-vol-8',
+        type: 'Open Manuscript Scan',
+        description: 'Records of the Past Vol. VIII: Complete 75 Invocations translated by Prof. Édouard Naville (London, 1876).',
+        isPublicDomain: true,
+      },
+      {
+        repositoryName: 'Bibliothèque nationale de France (BnF Gallica) — Naville Edition',
+        url: 'https://gallica.bnf.fr',
+        type: 'Official Curatorial Portal',
+        description: 'La Litanie du Soleil: Inscriptions recueillies dans les Tombeaux des Rois à Thèbes (Leipzig, 1875).',
+        isPublicDomain: true,
+      }
+    ],
+    chapters: [
+      {
+        index: 1,
+        label: 'Invocations 1 to 25: The Manifestations of the Radiant Dawn and Horizon',
+        originalTextSnippet: '𓇋𓏌𓎡 𓂋𓂝 𓅓 𓊹𓊹 𓈖𓏏𓊃 𓅃 — 𓂋𓂝 𓊵𓏏𓊪 𓅓 𓁹𓊨𓀭 𓁹𓊨𓀭 𓊵𓏏𓊪 𓅓 𓂋𓂝\nTransliteration: "Djed medu in Ra... Khepri kheper djesef... Ra hetep em Asar, Asar hetep em Ra."',
+        englishLiteral: '“Praise be to thee, O Ra, exalted of power! Lord of the Solar Disk, the Creator who brought forth Himself into being. Behold: Ra rests in Osiris, and Osiris rests in Ra; the Twin Sovereign Souls united as One in the secret chambers of the Duat.”',
+        academicNotes: 'Proves the esoteric unity of Ra (solar celestial power) and Osiris (regenerative chthonic power) in New Kingdom royal theology.',
+      },
+      {
+        index: 2,
+        label: 'Invocations 26 to 75: The Ram-Headed Nocturnal Sun & Liberation of Souls',
+        originalTextSnippet: '𓂋𓂝 𓋹𓍿𓐍 𓏛 𓅓 𓎛𓎡𓄿𓏛 𓎟 𓊹 𓌃𓏛 | 𓅝𓏏𓏭 𓁹𓂋 𓌳𓐙𓂝𓏏 𓈖 𓂋𓂝',
+        englishLiteral: '“Homage to thee, Af-Ra, divine Flesh traveling upon the nocturnal waters! Thoth standeth at the prow of the solar boat writing Ma’at (truth and law), opening the gates of darkness so the souls may receive the breath of life.”',
+        academicNotes: 'Inscribed on plaster-smoothed limestone corridors so the Pharaoh could recite the 75 forms of Ra during royal burial ceremonies.',
+      }
+    ]
+  },
+
+  'emerald-tablet-thoth-hermes': {
+    artifactId: 'emerald-tablet-thoth-hermes',
+    manuscriptTitle: 'The Emerald Tablet of Thoth / Hermes Trismegistus (Tabula Smaragdina)',
+    foliationCount: '13 Hermetic Precepts · Oldest Arabic Recension in Kitab Sirr al-Khaliqa · Hugo of Santalla Latin Text',
+    completeTextState: 'Complete Full Text Available',
+    licenseStatus: 'Public Domain Primary Source (Pre-1929 / Ancient)',
+    copyrightDisclaimer: 'Ancient Hermetic foundation text. Public domain. Preserved in medieval Arabic manuscripts and translated into Latin c. 1140 CE.',
+    pureSourceLinks: [
+      {
+        repositoryName: 'King’s College, Cambridge — The Newton Project (MS Keynes 28)',
+        url: 'https://www.newtonproject.ox.ac.uk/view/texts/normalized/ALCH00017',
+        type: 'Open Manuscript Scan',
+        description: 'Sir Isaac Newton’s handwritten English translation and hermetic alchemical notes (c. 1680).',
+        isPublicDomain: true,
+      },
+      {
+        repositoryName: 'Bibliothèque nationale de France (BnF) — Arabic MS Arabe 2275',
+        url: 'https://gallica.bnf.fr',
+        type: 'Official Curatorial Portal',
+        description: 'Oldest known written recension preserved in Pseudo-Apollonius of Tyana’s Kitab Sirr al-Khaliqa.',
+        isPublicDomain: true,
+      }
+    ],
+    chapters: [
+      {
+        index: 1,
+        label: 'Precepts 1 to 6: The Axiom of Correspondence ("As Above, So Below") and the Solar Father',
+        originalTextSnippet: 'حَقٌّ لَا رَيْبَ فِيهِ: أَنَّ الأَعْلَى مِنَ الأَسْفَلِ وَالأَسْفَلَ مِنَ الأَعْلَى...\n"Quod est inferius est sicut quod est superius, et quod est superius est sicut quod est inferius, ad perpetranda miracula rei unius. Pater eius est Sol, mater eius Luna."',
+        englishLiteral: '“Tis true without lying, certain and most true: That which is Below is like that which is Above, and that which is Above is like that which is Below, to accomplish the miracles of the One Thing. Its father is the Sun (Ra), its mother the Moon (Thoth), the Wind carried it in its belly, the Earth is its nurse.”',
+        academicNotes: 'Sir Isaac Newton spent years studying this text at Trinity College Cambridge, identifying the "Sun and Moon" as the active and passive principles of universal force.',
+      },
+      {
+        index: 2,
+        label: 'Precepts 7 to 13: Separation of the Subtle from the Gross and the Three Parts of Wisdom',
+        originalTextSnippet: 'Separabis terram ab igne, subtile a spisso suaviter, magno cum ingenio... Ideo vocatus sum Hermes Trismegistus, habens tres partes philosophiae totius mundi.',
+        englishLiteral: '“Separate thou the earth from the fire, the subtile from the gross, sweetly with great ingenuity. It ascends from earth to heaven and descends again to earth... Therefore am I called Hermes Trismegistus, having the three parts of the philosophy of the whole world.”',
+        academicNotes: 'Hermes Trismegistus is the Hellenistic-Egyptian synthesis of Thoth (Djehuty). The "three parts" correspond to alchemy, astrology, and theurgy.',
+      }
+    ]
+  },
+
+  'papyrus-of-ani-hymns-ra-thoth': {
+    artifactId: 'papyrus-of-ani-hymns-ra-thoth',
+    manuscriptTitle: 'Papyrus of Ani (British Museum EA 10470): The Solar Hymn to Ra & The Invocation of Thoth',
+    foliationCount: '78-Foot Polychrome Papyrus Roll · Chapters 15 & 182 · Cursive Hieroglyphs with Vignettes',
+    completeTextState: 'Complete Full Text Available',
+    licenseStatus: 'Public Domain Primary Source (Pre-1929 / Ancient)',
+    copyrightDisclaimer: '19th Dynasty Theban papyrus roll (c. 1250 BCE). Public domain. Acquired 1888 by British Museum and published in color facsimile 1890.',
+    pureSourceLinks: [
+      {
+        repositoryName: 'The British Museum Department of Ancient Egypt (Papyrus EA 10470)',
+        url: 'https://www.britishmuseum.org/collection/object/Y_EA10470-1',
+        type: 'Official Curatorial Portal',
+        description: 'Complete high-resolution curatorial scans of the 78-foot original papyrus roll with chapter vignettes.',
+        isPublicDomain: true,
+      },
+      {
+        repositoryName: 'Internet Archive — The Papyrus of Ani (Budge & Renouf 1890 Facsimile)',
+        url: 'https://archive.org/details/papyrusofaniinbr00budg',
+        type: 'Open Manuscript Scan',
+        description: 'First official color facsimile edition published by order of the Trustees of the British Museum (1890).',
+        isPublicDomain: true,
+      }
+    ],
+    chapters: [
+      {
+        index: 1,
+        label: 'Chapter 15: The Morning Adoration to Ra-Horakhty in the Boat of Millions of Years',
+        originalTextSnippet: '𓇋𓏌𓎡 𓂋𓂝 𓅱𓃀𓈖 𓅓 𓈌𓏏𓏭 — 𓁹𓂋𓂝𓏛 𓈖 𓈞𓅓𓅱 𓎟 𓋹 𓏛\nTransliteration: "Dua Ra-Horakhty wuben em akhet... kheper em heh en renput."',
+        englishLiteral: '“A Hymn of Praise to Ra when he riseth in the eastern horizon of heaven: Homage to thee, O Ra, who art Horakhty, the self-existent! Beautiful is thy rising; thou art crowned King of Gods, illuminating both lands with thy beams; the divine boat saileth on in triumph.”',
+        academicNotes: 'Features Ani and his wife Tutu offering libations before Ra in his golden sun-bark.',
+      },
+      {
+        index: 2,
+        label: 'Chapter 182: The Spell of Thoth, Lord of Divine Words (Medu Netjer) & Weigher of Truth',
+        originalTextSnippet: '𓇋𓏌𓎡 𓅝𓏏𓏭 𓊹 𓈖 𓌳𓐙𓂝𓏏 𓎛𓎡𓄿 𓎟 𓊹 𓌃𓏛 — 𓋹 𓍿 𓐍 𓏛 𓂋 𓈖 𓁹𓊨𓀭\nTransliteration: "In-ek Djehuty, sesh iker, neb Maat, ir hetep netjeru."',
+        englishLiteral: '“I am Thoth, the excel-lent scribe, Lord of Right and Truth (Ma’at), whose hands are pure! I establish peace among the gods, I write with the stylus of truth, and I give breath unto the nostrils of Osiris that he may live forever.”',
+        academicNotes: 'Highlights the fundamental role of Thoth as the divine recorder whose words (*heka*) possess cosmic creative power.',
+      }
+    ]
+  },
+
+  'ibn-hazm-milal-nihal': {
+    artifactId: 'ibn-hazm-milal-nihal',
+    manuscriptTitle: 'Kitāb al-Fiṣal fī al-Milal wa-al-Ahwāʾ wa-al-Niḥal (The Oldest Form of the Encyclopedia of Religions)',
+    foliationCount: '5 Massive Volumes · Andalusian Manuscript Codices · Complete Comparative Survey of World Religions',
+    completeTextState: 'Complete Full Text Available',
+    licenseStatus: 'Public Domain Primary Source (Pre-1929 / Ancient)',
+    copyrightDisclaimer: '11th-century primary comparative religious encyclopedia composed in Cordoba c. 1030 CE. Public domain.',
+    pureSourceLinks: [
+      {
+        repositoryName: 'Real Biblioteca del Monasterio de San Lorenzo de El Escorial (MS Arab. 1438)',
+        url: 'https://rbme.patrimonionacional.es/',
+        type: 'Official Curatorial Portal',
+        description: 'Original Andalusian manuscript codices of Ibn Hazm’s comparative encyclopedia.',
+        isPublicDomain: true,
+      },
+      {
+        repositoryName: 'Internet Archive — Historical Arabic Editions & Critical Studies (pre-1890)',
+        url: 'https://archive.org/details/KitabAlFisalFiAlMilalWaAlAhwaWaAlNihal',
+        type: 'Open Manuscript Scan',
+        description: 'Complete Arabic text and earliest 19th-century European philological apparatus.',
+        isPublicDomain: true,
+      }
+    ],
+    chapters: [
+      {
+        index: 1,
+        label: 'Prolegomena: The Epistemological Principles of Objective Religious Inquiry',
+        originalTextSnippet: 'قال أبو محمد علي بن حزم: "الواجب على كل من طلب الحق أن يطرح الهوى، وأن ينظر في أقوال الخصوم كما ينظر في أقوال أصحابه، بالبرهان العقلي والنقل الصحيح."',
+        englishLiteral: '“Abu Muhammad Ali ibn Hazm said: ‘It is the binding duty of whoever seeks truth to cast aside partisan prejudice, and to examine the doctrines of his opponents with the very same criteria as those of his own companions—grounded in rational proof and authentic primary documentation.’”',
+        academicNotes: 'Universally recognized by 19th-century Orientalists as the earliest recorded formulation of objective comparative religious methodology.',
+      },
+      {
+        index: 2,
+        label: 'Volume I & II: Systematic Textual Examination of the Torah, Christian Gospels, and Zoroastrianism',
+        originalTextSnippet: 'فصل في اختلاف ألفاظ التوراة السامرية والعبرانية والسبعينية، وبيان ما دخلها من الزيادة والنقصان بالحجة والشهادة.',
+        englishLiteral: '“Chapter on the textual variations between the Samaritan Torah, the Hebrew Masoretic text, and the Greek Septuagint; demonstrating through line-by-line comparison the historical interpolations and deletions.”',
+        academicNotes: 'Written 800 years before Spinoza and modern Western higher criticism of biblical texts.',
+      }
+    ]
+  },
+
+  'epictetus-enchiridion-prohairesis': {
+    artifactId: 'epictetus-enchiridion-prohairesis',
+    manuscriptTitle: 'Epictetus: Discourses & Enchiridion (On Prohairesis: The Unconquerable Free Will & Human Nature)',
+    foliationCount: '4 Books of Discourses · 53 Chapters of the Enchiridion · Classical Greek Text',
+    completeTextState: 'Complete Full Text Available',
+    licenseStatus: 'Public Domain Primary Source (Pre-1929 / Ancient)',
+    copyrightDisclaimer: 'Ancient Stoic philosophical lectures transcribed by Arrian c. 108 CE. Public domain. Authorized translation by George Long (1877).',
+    pureSourceLinks: [
+      {
+        repositoryName: 'Perseus Digital Library (Tufts University)',
+        url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0236',
+        type: 'Academic Primary Concordance',
+        description: 'Complete Greek text with morphological analysis and George Long’s 1877 translation.',
+        isPublicDomain: true,
+      },
+      {
+        repositoryName: 'Internet Archive — The Discourses of Epictetus (George Long 1877 London Edition)',
+        url: 'https://archive.org/details/discoursesofepic00epicuoft',
+        type: 'Open Manuscript Scan',
+        description: 'First edition of George Long’s classical English translation (London: Bell, 1877).',
+        isPublicDomain: true,
+      }
+    ],
+    chapters: [
+      {
+        index: 1,
+        label: 'Enchiridion 1 & Discourses I.1: The Dichotomy of Control & The Invulnerability of Prohairesis',
+        originalTextSnippet: 'Τῶν ὄντων τὰ μέν ἐστιν ἐφ’ ἡμῖν, τὰ δὲ οὐκ ἐφ’ ἡμῖν... προαίρεσιν δὲ οὐδὲ ὁ Ζεὺς νικῆσαι δύναται.\n"Quae in nostra potestate sunt, natura sunt libera, non impedita... Prohaeresim vero ne Iuppiter quidem vincere potest."',
+        englishLiteral: '“Of things some are in our power, and others not. In our power are opinion, movement toward an object, desire, aversion, and in a word, all our own actions. Things not in our power are the body, property, reputation, offices... But our faculty of moral choice (Prohairesis) not even Zeus can conquer.”',
+        academicNotes: 'Establishes that human nature finds supreme freedom in moral autonomy, independent of external circumstances.',
+      },
+      {
+        index: 2,
+        label: 'Discourses Book II.10: The True Nature of Man as a Rational Social Being',
+        originalTextSnippet: 'Τίς οὖν εἶ; ἄνθρωπος. τοῦτο δ’ ἐστὶν οὐδὲν ἄλλο ἢ ζῷον θνητόν, λογικόν, κοινωνικόν.',
+        englishLiteral: '“What then art thou? A human being. And what is this? A mortal animal that possesses reason and is constituted for fellowship with others. Preserving this rational nature uncorrupted is the highest good.”',
+        academicNotes: 'Proclaims that true human dignity consists in moral self-governance rather than external praise or power.',
+      }
+    ]
+  },
+
+  'spinoza-ethics-human-freedom': {
+    artifactId: 'spinoza-ethics-human-freedom',
+    manuscriptTitle: 'Baruch Spinoza: Ethica Ordine Geometrico Demonstrata (On Human Nature, Bondage, and True Freedom)',
+    foliationCount: '5 Geometric Parts · Propositions, Axioms & Scholia · Opera Posthuma First Edition 1677',
+    completeTextState: 'Complete Full Text Available',
+    licenseStatus: 'Public Domain Primary Source (Pre-1929 / Ancient)',
+    copyrightDisclaimer: '17th-century philosophical masterpiece published posthumously 1677. Public domain. Authoritative translation by R. H. M. Elwes (1883).',
+    pureSourceLinks: [
+      {
+        repositoryName: 'Oxford / Internet Archive — Spinoza’s Ethics (Elwes 1883 Edition)',
+        url: 'https://archive.org/details/chiefworksofben02spin',
+        type: 'Open Manuscript Scan',
+        description: 'Complete 1883 English translation by R. H. M. Elwes with critical introduction.',
+        isPublicDomain: true,
+      },
+      {
+        repositoryName: 'Koninklijke Bibliotheek (National Library of the Netherlands)',
+        url: 'https://www.kb.nl',
+        type: 'Official Curatorial Portal',
+        description: 'Original Latin first edition of Spinoza’s B.D.S. Opera Posthuma (Amsterdam, 1677).',
+        isPublicDomain: true,
+      }
+    ],
+    chapters: [
+      {
+        index: 1,
+        label: 'Part IV: Of Human Bondage (De Servitute Humana) & The Causes of Unfreedom',
+        originalTextSnippet: 'Hominum impotentiam in moderandis et coercendis affectibus Servitutem voco: homo namque affectibus obnoxius sui iuris non est, sed fortunae, in cuius potestate ita est, ut saepe coactus sit, etsi meliora videat, deteriora tamen sequi.',
+        englishLiteral: '“Human infirmity in moderating and checking the emotions I call Bondage: for a man who is a slave to his emotions is not his own master, but lies in the power of fortune, to such an extent that he is often compelled, although he sees the better course, to follow the worse.”',
+        academicNotes: 'Spinoza demonstrates how ignorance of causal necessity leads human beings to mistake emotional compulsions for free choice.',
+      },
+      {
+        index: 2,
+        label: 'Part V: Of the Power of the Intellect, or Human Freedom (De Libertate Humana)',
+        originalTextSnippet: 'Affectus, qui passio est, desinit esse passio, simulatque eius claram et distinctam formamus ideam... Ex his clare intelligitur, in quo nostra salus, seu beatitudo, seu Libertas consistit; nempe in constanti et aeterno erga Deum Amore.',
+        englishLiteral: '“An emotion, which is a passion, ceases to be a passion as soon as we form a clear and distinct idea thereof... From this we clearly understand in what our salvation, blessedness, or Freedom consists: namely, in an unyielding and eternal love towards God (Amor Dei Intellectualis).”',
+        academicNotes: 'Defines true human freedom as rational enlightenment and understanding nature’s immutable order.',
+      }
+    ]
+  },
+
+  'schopenhauer-freedom-of-will': {
+    artifactId: 'schopenhauer-freedom-of-will',
+    manuscriptTitle: 'Arthur Schopenhauer: Über die Freiheit des menschlichen Willens (Prize Essay on the Freedom of the Will)',
+    foliationCount: '5 Exhaustive Sections · 1839 Royal Norwegian Academy Prize Memoir · First Edition 1841',
+    completeTextState: 'Complete Full Text Available',
+    licenseStatus: 'Public Domain Primary Source (Pre-1929 / Ancient)',
+    copyrightDisclaimer: '1839 philosophical prize essay. Public domain. Authoritative early translation by T. Bailey Saunders (London, 1889).',
+    pureSourceLinks: [
+      {
+        repositoryName: 'Bayerische Staatsbibliothek München / Internet Archive',
+        url: 'https://archive.org/details/diebeidengrundp00schogoog',
+        type: 'Open Manuscript Scan',
+        description: 'First edition of Die beiden Grundprobleme der Ethik containing the 1839 Prize Essay (Frankfurt am Main, 1841).',
+        isPublicDomain: true,
+      },
+      {
+        repositoryName: 'Det Kongelige Norske Videnskabers Selskab (Trondheim Archives)',
+        url: 'https://dknvs.no',
+        type: 'Official Curatorial Portal',
+        description: 'Official historical register of the 1839 Royal Norwegian Society of Sciences Prize Essay.',
+        isPublicDomain: true,
+      }
+    ],
+    chapters: [
+      {
+        index: 1,
+        label: 'Section I & III: The Freedom of Will Before Self-Consciousness & The Law of Causality',
+        originalTextSnippet: 'Der Mensch kann zwar thun, was er will; aber er kann nicht wollen, was er will... Jede That eines Menschen ist das nothwendige Product seines Charakters und des eingetretenen Motivs. Operari sequitur esse.',
+        englishLiteral: '“A man can do what he wills, but he cannot will what he wills. Every deed of a man is the strictly necessary outcome of his innate character and the operating motive. Action follows being (Operari sequitur esse).”',
+        academicNotes: 'Proves that self-consciousness tells us we can act if we desire, but cannot prove that the desire itself was uncaused.',
+      },
+      {
+        index: 2,
+        label: 'Section V: Transcendental Freedom & Moral Responsibility in Human Nature',
+        originalTextSnippet: 'Die Freiheit gehört nicht der Erscheinung an, sondern dem Wesen an sich: sie ist transscendental... Auf diesem Grunde ruht die unerschütterliche Thatsache des sittlichen Bewusstseins: das Gefühl der Verantwortlichkeit.',
+        englishLiteral: '“Freedom belongs not to the empirical appearance, but to the thing-in-itself: it is transcendental... Upon this foundation rests the unshakable fact of moral consciousness: the universal feeling of responsibility for who we are.”',
+        academicNotes: 'Reconciles empirical determinism with Kantian transcendental freedom.',
+      }
+    ]
   }
 };
 

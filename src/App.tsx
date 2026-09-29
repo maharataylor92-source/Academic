@@ -18,12 +18,13 @@ import { CurriculumRecommender } from './components/CurriculumRecommender';
 import { ScholarlyCollab } from './components/ScholarlyCollab';
 import { EthiopianCanonViewer } from './components/EthiopianCanonViewer';
 import { ManuscriptsViewer } from './components/ManuscriptsViewer';
+import { EncyclopediaMysticViewer } from './components/EncyclopediaMysticViewer';
 import { DebiasedAnalysisModal } from './components/DebiasedAnalysisModal';
-import { ShieldCheck, BookOpen, Layers, Compass, Sparkles, Scale, Scroll } from 'lucide-react';
+import { ShieldCheck, BookOpen, Layers, Compass, Sparkles, Scale, Scroll, Sun } from 'lucide-react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<
-    'timeline' | 'multispectral' | 'manuscripts' | 'ethiopian-canon' | 'archive' | 'dispatches' | 'recommendations' | 'collaborate'
+    'timeline' | 'multispectral' | 'manuscripts' | 'encyclopedia-mystic' | 'ethiopian-canon' | 'archive' | 'dispatches' | 'recommendations' | 'collaborate'
   >('timeline');
 
   // Currently focused artifact for multispectral viewer
@@ -71,6 +72,14 @@ export default function App() {
 
         {activeTab === 'manuscripts' && (
           <ManuscriptsViewer
+            artifacts={ARTIFACTS_DATA}
+            onOpenArtifact={handleOpenDossier}
+            onOpenMultispectral={handleOpenMultispectral}
+          />
+        )}
+
+        {activeTab === 'encyclopedia-mystic' && (
+          <EncyclopediaMysticViewer
             artifacts={ARTIFACTS_DATA}
             onOpenArtifact={handleOpenDossier}
             onOpenMultispectral={handleOpenMultispectral}
@@ -181,6 +190,17 @@ export default function App() {
                   className="hover:text-[#e8b584] transition-colors"
                 >
                   Complete Manuscripts & Pure Sources
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => {
+                    setActiveTab('encyclopedia-mystic');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className="hover:text-[#e8b584] transition-colors"
+                >
+                  Encyclopedia of Religions & Mystic Books (Pre-1890)
                 </button>
               </li>
               <li>

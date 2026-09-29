@@ -1,9 +1,9 @@
 import React from 'react';
-import { Compass, BookOpen, Clock, Layers, Sparkles, MessageSquare } from 'lucide-react';
+import { Compass, BookOpen, Clock, Layers, Sparkles, MessageSquare, Sun } from 'lucide-react';
 
 interface HeaderProps {
-  activeTab: 'timeline' | 'multispectral' | 'manuscripts' | 'ethiopian-canon' | 'archive' | 'dispatches' | 'recommendations' | 'collaborate';
-  setActiveTab: (tab: 'timeline' | 'multispectral' | 'manuscripts' | 'ethiopian-canon' | 'archive' | 'dispatches' | 'recommendations' | 'collaborate') => void;
+  activeTab: 'timeline' | 'multispectral' | 'manuscripts' | 'encyclopedia-mystic' | 'ethiopian-canon' | 'archive' | 'dispatches' | 'recommendations' | 'collaborate';
+  setActiveTab: (tab: 'timeline' | 'multispectral' | 'manuscripts' | 'encyclopedia-mystic' | 'ethiopian-canon' | 'archive' | 'dispatches' | 'recommendations' | 'collaborate') => void;
   onOpenSearch?: () => void;
 }
 
@@ -59,6 +59,18 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
           >
             <BookOpen className="w-3.5 h-3.5 text-[#e8b584]" />
             Complete Manuscripts
+          </button>
+
+          <button
+            onClick={() => setActiveTab('encyclopedia-mystic')}
+            className={`transition-colors py-1 flex items-center gap-1.5 ${
+              activeTab === 'encyclopedia-mystic'
+                ? 'text-[#e8b584] border-b border-[#e8b584] font-medium'
+                : 'hover:text-[#f0ebe1]'
+            }`}
+          >
+            <Sun className="w-3.5 h-3.5 text-[#e8b584]" />
+            Encyclopedia & Mystic
           </button>
 
           <button
@@ -152,6 +164,12 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
           className={`whitespace-nowrap px-2 py-1 ${activeTab === 'manuscripts' ? 'text-[#e8b584] font-semibold' : ''}`}
         >
           Manuscripts
+        </button>
+        <button
+          onClick={() => setActiveTab('encyclopedia-mystic')}
+          className={`whitespace-nowrap px-2 py-1 ${activeTab === 'encyclopedia-mystic' ? 'text-[#e8b584] font-semibold' : ''}`}
+        >
+          Encyclopedia & Mystic
         </button>
         <button
           onClick={() => setActiveTab('ethiopian-canon')}
